@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto de alta complexidade</title>
     <link rel="stylesheet" href="./src/css/style.css" />
-    <link rel="stylesheet" href="./src/css/header.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Marcação para mobile  320px-->
+    <!--  inicio do projeto --->
     <header>
         <nav>
             <img src="./src/assets/header/Menu mobile.png" alt="Menu mobile" />
@@ -222,7 +224,7 @@
         </section>
     </main>
     <!-- Macação do footer -->
-    <footer>
+    <footer style="background: black;">
         <div>
             <h1>Envie sua aplicação</h1>
             <form>
@@ -230,7 +232,7 @@
                     <input type="text" placeholder="Nome*" />
                 </div>
                 <div>
-                    <select id="cidade" name="cidade" required>
+                    <select id="cidade" name="cidade">
                         <option value="" disabled selected>Selecione uma cidade</option>
                         <option value="sao-paulo">São Paulo</option>
                         <option value="rio-de-janeiro">Rio de Janeiro</option>
@@ -244,7 +246,7 @@
                 <!-- Espaço para o select de date-->
                 <div>
                     
-                    <input type="datetime" name="date" id="date" value="18.10.2021" >
+                    <input type="date" name="date" id="date" value="18.10.2021" >
                     
                 </div>
 
@@ -279,7 +281,6 @@
                 <li><u>Vantagens</u></li>
                 <li>Serviços</li>
                 <li>Contatos</li>
-               
             </ul>
             <div>
                 <img src="./src/assets/footer/Frame 12574.png" alt="Icone instagran">
