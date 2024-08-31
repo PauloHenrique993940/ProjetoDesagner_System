@@ -1,1 +1,16 @@
+:root{
+    --background_color: #000000;
+    --primeira_color: #ffffff;
 
+    --segund_color_black: #30373e;
+    --cinza_escuro: #adb5bd;
+    --cinza_claro:#d3d7db;
+    --color_blank: #fafafa;
+
+    --roxo_azulado:#5a2ff2;
+    --roxo_escuro:#845ef7;
+    --roxo_claro:#e1d4ff;
+    --roxo_white:#f8f5ff;
+
+
+}
