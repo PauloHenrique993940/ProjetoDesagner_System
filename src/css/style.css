@@ -155,7 +155,7 @@ section{
     width: 100%;
     background-color: var(--primeira_color__body);
     padding: 20px 10px 20px;
-    width: 300px;
+    width: 100%;
 }
 
 .servicos__item__descr p{
