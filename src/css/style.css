@@ -80,6 +80,9 @@ section{
     font-family: var(--font--Montserrat);
     color: var(--background_color);
     font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    width: 260px;
 }
 
 .projectComplexidade__card__text p{
