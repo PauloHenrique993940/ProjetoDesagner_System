@@ -383,6 +383,14 @@ select{
     padding-left: 10px;
     padding-right: 10px;
 }
+input::placeholder{
+    color: var(--cinza_escuro);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: var(--font_family);
+
+}
 
 .checkbox-container {
     display: flex;
