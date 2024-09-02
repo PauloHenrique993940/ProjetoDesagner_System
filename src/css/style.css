@@ -372,7 +372,7 @@ form input{
 }
 
 select{
-    width: 100%;
+    width: 99%;
     height: 52px;
     border-radius: 16px;
     margin-bottom: 10px;
