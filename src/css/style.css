@@ -384,7 +384,8 @@ select{
     padding-right: 10px;
 }
 input::placeholder{
-    color: var(--cinza_claro);
+    color: var(--cinza_claro
+    );
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
