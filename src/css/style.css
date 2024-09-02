@@ -36,6 +36,7 @@ header{
     height: 18px;
     padding: 10px;
     cursor: pointer;
+    margin-left: 10px;
 }
 .header__logo{
     width: 55px;
@@ -46,6 +47,7 @@ header{
 .header__input{
     width: 18px;
     height: 18px;
+    margin-right: 10px;
 
 }
 
