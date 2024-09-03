@@ -698,8 +698,13 @@ li {
 
     /*configuração para o footer */
     select{
-        width: 97%;
+        width: 60%;
     }
+    form input{
+        width: 60%;
+        padding-left: 10px;
+    }
+
 
     .checkbox-container{
         flex-direction: row-reverse;
@@ -713,6 +718,7 @@ li {
         margin-right: 150px
 
     }
+
 
     .form__btn{
         width: 143px;
