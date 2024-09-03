@@ -35,7 +35,6 @@ header {
     background-color: var(--roxo_white);
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
 
 }
 
@@ -43,6 +42,7 @@ header {
     width: 24px;
     height: 18px;
     cursor: pointer;
+    padding-left: 20px;
 
 }
 
@@ -54,12 +54,14 @@ header {
 .header__input {
     width: 18px;
     height: 18px;
+    padding-right: 30px;
+    
 
 }
 
 section {
     margin-top: 30px;
-    padding: 0px 10px 0px 10px;
+    padding: 10px 0 10px 0;
 }
 
 .projectComplexidade__card {
