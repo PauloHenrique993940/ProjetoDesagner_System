@@ -698,10 +698,10 @@ li {
 
     /*configuração para o footer */
     select{
-        width: 60%;
+        width: 90%;
     }
     form input{
-        width: 60%;
+        width: 90%;
         padding-left: 10px;
     }
 
@@ -715,7 +715,6 @@ li {
     .checkbox__item_btn{
         width: 100%;
         align-items: center;
-        margin-right: 150px
 
     }
 
