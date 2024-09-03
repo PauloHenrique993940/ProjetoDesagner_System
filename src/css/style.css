@@ -409,27 +409,35 @@ input::placeholder {
     display: flex;
     align-items: center;
     gap: 10px;
-
-    padding: 5px;
+    flex-wrap: wrap;
     background-color: var(--background_color);
     border-radius: 5px;
+    padding: 10px;
 
 }
 
 .checkbox-container input[type="checkbox"] {
     width: 20px;
-    height: 20px;
     accent-color: var(--roxo_azulado);
     /* Muda a cor do checkbox */
+    align-items: center;
+}
+
+.checkbox__item_btn{
+    align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .checkbox-container label {
     font-size: 14px;
     color: var(--primeira_color__body);
-    ;
     cursor: pointer;
+    align-items: center;
 }
-
+.form__btn__container{
+    width: 100%;
+}
 .form__btn {
     width: 100%;
     height: 44px;
@@ -442,6 +450,10 @@ input::placeholder {
     line-height: 18px;
     border: none;
 }
+footer{
+    background-color: var(--background_color);
+    width: 100%;
+}
 
 footer p {
     font-family: var(--font_family);
@@ -451,7 +463,10 @@ footer p {
     letter-spacing: 1%;
     color: var(--primeira_color__body);
 }
-
+ul li{
+    list-style-type: none;
+    margin: 0;
+}
 
 
 li {
@@ -483,7 +498,7 @@ li {
 /* Configuração para Tablet */
 @media (min-width: 768px) {
     section {
-        padding: 0 20px 0 20px;
+        padding: 20px;
     }
 
     .header__menu {
@@ -504,8 +519,6 @@ li {
         height: 24px;
         margin-right: 15px;
     }
-
-    .projectComplexidade__card {}
 
     .projectComplexidade__card img {
         width: 100%;
@@ -632,15 +645,16 @@ li {
     .vantagen__items{
         display: grid;
         grid-template-columns: 50% 50%;
-        width: 600px;
-        gap: 30px;
+        width: 700px;
+        gap: 50px;
     }
 
     .vantagen__card{
         padding: 10px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 290px;
+        
     }
 
     .vantagen__card img{
@@ -678,6 +692,60 @@ li {
         line-height: 32px;
         
     }
+
+    /*configuração para o footer */
+    select{
+        width: 97%;
+    }
+
+    .checkbox-container{
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+    
+    }
+    .checkbox__item_btn{
+        width: 100%;
+        align-items: center;
+        margin-right: 150px
+
+    }
+
+    .form__btn{
+        width: 143px;
+    }
+    .checkbox__item_btn--span{
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 1%;
+    }
+    footer p{
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 1%;
+        width: 570px;
+    }
+    .footer__item__links{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 64px;
+    }
+
+    .git{
+        gap: 20px;
+        display: flex;
+
+    }
+
+    .git img{
+        width: 40px;
+        height: 40px
+    }
+
+
+
 
     
     
