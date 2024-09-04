@@ -42,7 +42,6 @@ header {
     width: 24px;
     height: 18px;
     cursor: pointer;
-    padding-left: 20px;
 
 }
 
@@ -54,14 +53,13 @@ header {
 .header__input {
     width: 18px;
     height: 18px;
-    padding-right: 30px;
     
 
 }
 
 section {
+    margin: 0 10px  0 10px;
     margin-top: 30px;
-    padding: 10px 0 10px 0;
 }
 
 .projectComplexidade__card {
@@ -299,6 +297,8 @@ section {
     margin-bottom: 20px;
     border-radius: 16px;
 }
+
+
 
 .vantagen__card img {
     width: 40px;
@@ -625,10 +625,14 @@ li {
     }
 
     /*Seção como trabalhamos */
+    .vantagen__items__item{
+        display: flex;
+        flex-direction: column;
+    }
     .como__trabaçhamos__container h3 {
         font-size: 24px;
         line-height: 32px;
-        width: 311px;
+        width: 300px;
     }
 
     .como__trabaçhamos__container p {
@@ -641,7 +645,6 @@ li {
     .como__trabaçhamos__container--btn {
         display: flex;
         justify-content: flex-start;
-        gap: 40px;
     }
 
     /*seção Vantagens */
@@ -676,7 +679,10 @@ li {
     .servicos__container{
         display: grid;
         grid-template-columns: 50% 50%;
-        gap: 20px;
+    }
+
+    .servicos__container__item__image{
+        width: 310px;
     }
     .servicos__container--desc{
         width: 290px;
@@ -693,6 +699,8 @@ li {
         font-size: 16px;
         height: 64px;
         line-height: 32px;
+        width: 300px;
+        margin-bottom: 20px;
         
     }
 
