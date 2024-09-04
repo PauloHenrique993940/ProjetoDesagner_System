@@ -663,7 +663,8 @@ li {
         padding: 10px;
         display: flex;
         justify-content: space-between;
-        width: 290px;
+        width: 350px;
+        margin-bottom: 10px
         
     }
 
@@ -671,6 +672,7 @@ li {
         width: 55px;
         height: 58px;
     }
+    .
 
     .vantagen__card p{
         width: 150px;
