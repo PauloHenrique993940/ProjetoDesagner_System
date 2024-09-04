@@ -623,6 +623,10 @@ li {
 
 
     }
+    .como__trabaçhamos__container--btn{
+        gap: 30px;
+        display: flex;
+    }
 
     /*Seção como trabalhamos */
     .vantagen__items__item{
