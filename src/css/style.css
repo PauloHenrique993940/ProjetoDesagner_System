@@ -35,6 +35,9 @@ header {
     background-color: var(--roxo_white);
     align-items: center;
     justify-content: space-between;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    padding: 10px;
 
 }
 
@@ -46,7 +49,7 @@ header {
 }
 
 .header__logo {
-    width: 55px;
+    width: 58.48px;
     height: 32px;
 }
 
