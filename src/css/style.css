@@ -1319,14 +1319,12 @@ li {
         display: flex;
         flex-direction: row-reverse;
         margin-top: 30px;
-        gap: 40px;
-        justify-content: space-evenly;
-        width: 80%;
+        width: 69%;
+        gap: 20px;
     }
     .footer__item__lista{
         display: flex;
         flex-direction: column;
-
     }
 
     li {
@@ -1338,6 +1336,7 @@ li {
         font-family: var(--font--Montserrat);
         line-height: 18px;
         margin-bottom: 10px;
+        width: 180px;
     }
 
     .list__color__vantagems {
@@ -1363,6 +1362,8 @@ li {
     .git img{
         width: 40px;
         height: 40px;
+        display: flex;
+        margin-top: 0;
     }
 
 }
