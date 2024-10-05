@@ -1,0 +1,17 @@
+{
+  "name": "projetodesagner_system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/sass/style.scss:disti/cssCompilado.css",
+    "dev": "sass --watch --color src/sass/style.scss:dist/cssCompilado.css"
+
+  },
+  "keywords": [],
+  "author": "Paulo Henrique",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.79.1"
+  }
+}
