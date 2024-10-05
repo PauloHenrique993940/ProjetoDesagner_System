@@ -158,9 +158,9 @@ section {
     letter-spacing: 1%;
     color: var(--background_color);
     line-height: 25.2px;
-    margin-left: 5px;
-    width: 290px;
+    width: 100%;
     padding-top: 10px;
+    text-align: justify;
 }
 
 .servicos__item {
@@ -736,11 +736,10 @@ li {
         font-size: 18px;
         letter-spacing: 1%;
         color: var(--background_color);
-        line-height: 32.4px;
-        margin-left: 5px;
-        width: 668px;
-        height: 320px;
         padding-top: 30px;
+        width: 100%;
+        color: blue;
+
     }
 
     .servicos__item {
