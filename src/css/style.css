@@ -65,8 +65,6 @@ section {
 
 .sobre {
     background-color: var(--color_blank);
-    width: 100%;
-    padding-bottom: 0px;
 }
 
 .servicos {
@@ -91,7 +89,7 @@ section {
 
 .projectComplexidade__card img {
     width: 100%;
-    height: 308px;
+    height: 350px;
     object-fit: cover;
     border-radius: 24px;
 }
@@ -120,9 +118,10 @@ section {
     letter-spacing: 1%;
     margin-bottom: 10px;
     margin-left: 10px;
-    width: 200px;
-    height: 100px;
     font-weight: 600;
+    text-align: left;
+    width: 70%;
+    display: flex;
 }
 
 .projectComplexidade__button {
@@ -162,6 +161,7 @@ section {
     width: 100%;
     text-align: left;
     margin-top: 30px;
+    text-align: justify;
 }
 
 
@@ -205,6 +205,7 @@ section {
     border-top-right-radius: 12px;
 
 }
+
 
 .servicos__item__descr p {
     font-weight: 700;
@@ -451,6 +452,7 @@ section {
     font-family: var(--font_family);
     font-weight: 700;
     color: var(--roxo_azulado);
+    margin: 0;
 }
 
 .servicos__container__seta {
