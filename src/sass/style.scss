@@ -21,12 +21,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    margin: 0;
     font-family: "Open  Sans", sans-serif;
 }
+
+
 
 header {
     display: flex;
@@ -158,8 +156,7 @@ section {
     letter-spacing: 1%;
     color: var(--background_color);
     line-height: 25.2px;
-    width: 100%;
-    padding-top: 10px;
+    width: 290;
     text-align: justify;
 }
 
