@@ -58,13 +58,13 @@ header {
 }
 
 section {
-    padding: 0 20px 0px 20px;
+    padding: 0 15px 0px 15px;
     margin-top: 30px;
-    margin: 0;
 }
 
 .sobre {
     background-color: var(--color_blank);
+    
 }
 
 .servicos {
@@ -111,7 +111,6 @@ section {
 }
 
 .projectComplexidade__card__text p {
-    font-weight: 600px;
     font-family: var(--font_family);
     color: var(--background_color);
     font-size: 14px;
@@ -119,9 +118,11 @@ section {
     margin-bottom: 10px;
     margin-left: 10px;
     font-weight: 600;
-    text-align: left;
-    width: 70%;
-    display: flex;
+    width: 201px;
+    margin-bottom: 30px;
+    height: 100px;
+    line-height: 19.6px;
+    left: 5%;
 }
 
 .projectComplexidade__button {
